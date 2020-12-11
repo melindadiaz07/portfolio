@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div>
+    <div className="skills-container">
       <h2>Skills & Experience</h2>
 
     <div className="frontend-container">
@@ -38,7 +38,7 @@ const Skills = () => {
     <div className="testing-container">
     <h3>Testing</h3>
 
-    <h4>Languages</h4>
+    <h4>Languages:</h4>
     <p>Mocha</p>
     {/* <p>RSpec</p> */}
 

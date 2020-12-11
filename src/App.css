@@ -39,7 +39,6 @@ body {
 }
 
 
-
 .blog-feed-container{
   width: 70vw;
   margin: 20vh 15vw;
@@ -82,3 +81,51 @@ a {
   padding-right: 4%;
   padding-bottom: 4%;
 }
+
+.skills-container{
+  color: white;
+  padding: 7vh 13vw;
+  margin-bottom: 10vh;
+}
+
+.skills-container h2{
+  margin-bottom: 5vh;
+  
+  text-align: center;
+}
+
+.frontend-container{
+  position: relative;
+  float: left;
+  padding: 3% 5%;
+  background-color: rgba(255,255,255,0.2);
+  min-height: 60vh;
+  border-radius: 5px;
+  margin: 3vh 3.5vw;
+}
+
+.backend-container{
+  position: relative;
+  float: left;
+  /* top: 30vh; */
+  padding: 3% 5%;
+  background-color: rgba(255,255,255,0.2);
+  min-height: 60vh;
+  border-radius: 5px;
+  margin: 3vh 3.5vw;
+}
+
+.testing-container{
+  /* position:absolute;
+  left: 70vw; */
+  position: relative;
+  float: left;
+  /* top: 30vh; */
+  padding: 3% 5%;
+  background-color: rgba(255,255,255,0.2);
+  min-height: 60vh;
+  border-radius: 5px;
+  margin-top: 3vh;
+  margin-left: 3.5vw
+}
+
