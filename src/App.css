@@ -3,7 +3,7 @@ body {
   background-attachment: fixed !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  
+ 
 }
 
 .ui.secondary.pointing.menu .item {
@@ -15,18 +15,66 @@ body {
 }
 
 .headshot{
-  width: 25vw;
+  height: 60vh;
   border-radius: 50%;
   position: absolute;
   top: 17vh; 
-  left: 40vw;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  padding: 5vh 5vw;
 }
 
 .home-page-container h2{
   color: white;
   position: absolute;
-  left: 40vw;
-  bottom: 17vh;
+  left: 30vw;
+  width: 50vw;
+  bottom: 15vh;
+  font-size: 4vh;
+  
 }
 
 
+
+.blog-feed-container{
+  width: 70vw;
+  margin: 20vh 15vw;
+  background-color: rgba(255,255,255,0.2);
+  padding: 10vh 10vw;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+.BlogsContainer {
+  padding-top: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+}
+
+.PostContainer {
+  border: 3px solid black;
+  width: 375px;
+}
+
+.Image {
+  border-bottom: 2px solid black;
+  width: 50vw;
+ 
+  object-fit: cover;
+  margin-bottom: 3%;
+}
+
+.TDContainer {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
