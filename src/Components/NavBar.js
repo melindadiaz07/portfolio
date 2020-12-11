@@ -11,7 +11,7 @@ const NavBar = ({location: { pathname }}) => {
   return (
     <div >
       
-    <Menu pointing secondary className="ui centered grid">
+    <Menu pointing secondary >
    
       <Fragment>
         
@@ -47,13 +47,14 @@ const NavBar = ({location: { pathname }}) => {
           active={pathname === "/blog"}
         />
         
+        <Menu.Menu position="right"> 
           <Menu.Item
           as={NavLink}
           to="/contact"
           name="Contact"
           active={pathname === "/contact"}
         />
-      
+      </Menu.Menu>
         
       </Fragment>
   
