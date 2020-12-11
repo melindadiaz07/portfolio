@@ -5,24 +5,22 @@ import { NavLink, withRouter, Redirect, Switch, useHistory } from "react-router-
 
 
 
-const NavBar = () => {
-
+const NavBar = ({location: { pathname }}) => {
 
 
   return (
-    <div>
+    <div >
       
-    <Menu pointing secondary>
+    <Menu pointing secondary className="ui centered grid">
    
-    
       <Fragment>
         
-        <Menu.Item
+        {/* <Menu.Item
             as={NavLink}
             to="/home"
             name="Home"
             active={pathname === "/home"}
-          />
+          /> */}
         <Menu.Item
           as={NavLink}
           to="/about"
@@ -31,28 +29,36 @@ const NavBar = () => {
         />
         <Menu.Item
           as={NavLink}
-          to="/admissions"
-          name="Admissions"
-          active={pathname === "/admissions"}
+          to="/projects"
+          name="Projects"
+          active={pathname === "/projects"}
         />
          <Menu.Item
           as={NavLink}
-          to="/academics"
-          name="Academics"
-          active={pathname === "/academics"}
+          to="/skills"
+          name="Skills"
+          active={pathname === "/skills"}
         />
+       
          <Menu.Item
           as={NavLink}
-          to="/faculty"
-          name="Faculty"
-          active={pathname === "/faculty"}
+          to="/blog"
+          name="Blog"
+          active={pathname === "/blog"}
         />
         
-        </Menu.Menu>
+          <Menu.Item
+          as={NavLink}
+          to="/contact"
+          name="Contact"
+          active={pathname === "/contact"}
+        />
+      
         
       </Fragment>
   
-  </Menu></div>
+  </Menu>
+  </div>
   )
 }
 
