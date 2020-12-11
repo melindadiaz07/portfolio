@@ -2,10 +2,11 @@ import './App.css'
 // import headshot from '../images/headshot.jpg'
 import NavBar from './components/NavBar'
 import About from './components/About'
-import Projects from './/components/Projects'
-import Skills from './/components/Skills'
-import Contact from './/components/Contact'
-import Blog from './/components/Blog'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
+import Blog from './components/Blog'
+import Home from './components/Home'
 import { Route, Switch, Redirect, withRouter } from 'react-router-dom'
 
 
@@ -22,9 +23,9 @@ function App() {
 
       <Route exact path="/" render={() => <Redirect to="/home" />} />
 
-      {/* <Route exact path='/home' render={()=> {
+      <Route exact path='/home' render={()=> {
         return <Home />
-      }} /> */}
+      }} />
 
       <Route exact path='/about' render={()=> {
         return <About />

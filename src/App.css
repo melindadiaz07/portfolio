@@ -13,3 +13,20 @@ body {
   font-size: 2vh;
   color: white !important;
 }
+
+.headshot{
+  width: 25vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 17vh; 
+  left: 40vw;
+}
+
+.home-page-container h2{
+  color: white;
+  position: absolute;
+  left: 40vw;
+  bottom: 17vh;
+}
+
+

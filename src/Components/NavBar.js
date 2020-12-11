@@ -15,12 +15,12 @@ const NavBar = ({location: { pathname }}) => {
    
       <Fragment>
         
-        {/* <Menu.Item
+        <Menu.Item
             as={NavLink}
             to="/home"
             name="Home"
             active={pathname === "/home"}
-          /> */}
+          />
         <Menu.Item
           as={NavLink}
           to="/about"
