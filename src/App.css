@@ -18,7 +18,7 @@ body {
   height: 60vh;
   border-radius: 50%;
   position: absolute;
-  top: 17vh; 
+  top: 13vh; 
   margin-left: 35vw;
   margin-right: 35vw;
   padding: 5vh 5vw;
@@ -32,6 +32,10 @@ body {
   bottom: 15vh;
   font-size: 4vh;
   
+}
+
+.contact-container{
+  margin: 10vh 10vw;
 }
 
 
