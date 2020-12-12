@@ -164,3 +164,17 @@ a {
   font-family: 'Italiana', serif;
 }
 
+.about-container{
+  width: 50vw;
+  font-family: 'Raleway Dots', cursive;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 30vh;
+  left: 25vw;
+}
+
+.about-container h3{
+  font-family: 'Raleway Dots', cursive;
+  color: black;
+  line-height: 1.7;
+}
