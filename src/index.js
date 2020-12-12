@@ -7,7 +7,7 @@ import "semantic-ui-css/semantic.min.css";
 
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename='/portfolio'>
     <App />
   </Router>,
   document.getElementById('root')
