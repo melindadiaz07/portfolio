@@ -7,7 +7,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Blog from './components/Blog'
 import Home from './components/Home'
-import { Route, Switch, Redirect, HashRouter, Link } from 'react-router-dom'
+import { Route, Switch, Redirect, BrowserRouter, Link } from 'react-router-dom'
 
 
 
