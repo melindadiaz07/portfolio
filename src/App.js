@@ -21,7 +21,7 @@ function App() {
 
     <Switch>
 
-      <Route exact path="/" render={() => <Redirect to="/home" />} />
+      <Route path="/" render={() => <Redirect to="/home" />} />
 
       <Route exact path='/home' render={()=> {
         return <Home />
