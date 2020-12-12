@@ -3,7 +3,12 @@ import React from 'react';
 const About = () => {
   return (
     <div className="about-container" >
-     <h3>I'm a silversmith turned developer, who fell in love with coding after building my company’s website. Experienced in Ruby on Rails and JavaScript based programming, with a background in design. With a background in running a business, I know how to prioritize competing tasks under pressure, meet deadlines, and deliver a quality product for the customer.</h3> 
+     <h3>
+   After working for years as a metalsmith and running a creative business, I fell in love with coding while building my company’s website. I’d planned to throw it together with a template, but being a perfectionist with a very specific design in mind, I ended up creating it from scratch - and learning a lot about programming.
+<br /><br />
+   As a designer, I was initially drawn to front-end development (HTML/CSS and Javascript), but after learning Ruby and creating my own Rails-based API I quickly found backend development just as rewarding - I’m constantly amazed at how something as seemingly logic-based as writing code actually involves a tremendous amount of creativity. It’s the perfect blend of right and left brain problem solving, and I never want to stop learning new ways to work with different languages and frameworks.
+<br /><br />
+   I have experience working with Javascript, HTML/CSS, React, Redux, Ruby/Rails, SQL, PostgreSQL, Bootstrap, Semantic UI, and Mocha. I’m very interested in working with and learning design principles to keep my code well-organized, like the MVC design pattern. As a lifelong learning, I always have a new language (or 3) I’m learning - currently I’m studying Python and C++.</h3> 
     </div>
   )
 }
