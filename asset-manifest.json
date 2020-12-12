@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a5cad6a8.chunk.css",
+    "main.js": "/portfolio/static/js/main.377105f0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.377105f0.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
+    "static/css/2.df77e5a3.chunk.css": "/portfolio/static/css/2.df77e5a3.chunk.css",
+    "static/js/2.4da1d042.chunk.js": "/portfolio/static/js/2.4da1d042.chunk.js",
+    "static/js/2.4da1d042.chunk.js.map": "/portfolio/static/js/2.4da1d042.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.df77e5a3.chunk.css.map": "/portfolio/static/css/2.df77e5a3.chunk.css.map",
+    "static/css/main.a5cad6a8.chunk.css.map": "/portfolio/static/css/main.a5cad6a8.chunk.css.map",
+    "static/js/2.4da1d042.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4da1d042.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/portfolio/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/headshot.dd93133f.jpg": "/portfolio/static/media/headshot.dd93133f.jpg",
+    "static/media/App.css": "/portfolio/static/media/sciencebg1.bfc565d5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fed2963.js",
+    "static/css/2.df77e5a3.chunk.css",
+    "static/js/2.4da1d042.chunk.js",
+    "static/css/main.a5cad6a8.chunk.css",
+    "static/js/main.377105f0.chunk.js"
+  ]
+}
