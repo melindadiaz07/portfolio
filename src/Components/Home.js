@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home-page-container">
       <img src={headshot} alt="headshot" className="headshot"/>
       <h2>
-        Hello, I'm Melinda Diaz - a Software Engineer and Full Stack Developer living in Alexandria, VA.
+        Hi, I'm Melinda Diaz - a Software Engineer and Full Stack Developer living in Alexandria, VA.
       </h2>
     </div>
 

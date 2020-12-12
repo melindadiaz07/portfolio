@@ -30,8 +30,9 @@ const Skills = () => {
     <p>SQL</p>
     <p>Javascript</p>
 
-    <h4>Frameworks/Libraries:</h4>
+    <h4>Frameworks/Databases:</h4>
     <p>Rails</p>
+    <p>PostgreSQL</p>
 
   </div>
     

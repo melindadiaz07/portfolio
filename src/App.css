@@ -1,9 +1,18 @@
+/* 
+font-family: 'Italiana', serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Scope One', serif; 
+*/
+
+a.item{
+  color: black;
+}
+
 body {
-  background: url(./images/gradbg.jpg) !important;
+  background: url(./images/sciencebg1.jpg) !important;
   background-attachment: fixed !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
- 
 }
 
 .ui.secondary.pointing.menu .item {
@@ -11,8 +20,14 @@ body {
   margin-right: 1vw !important;
   padding: 2.5vh 2vw !important;
   font-size: 2vh;
-  color: white !important;
+  color: rgb(5, 5, 5);
 }
+
+.ui.secondary.pointing.menu .item.active{
+  color:rgb(5, 5, 5)!important;
+  border-color: rgb(5, 5, 5) !important;
+}
+
 
 .headshot{
   height: 60vh;
@@ -22,16 +37,18 @@ body {
   margin-left: 35vw;
   margin-right: 35vw;
   padding: 5vh 5vw;
+  filter: grayscale(.2)
 }
 
 .home-page-container h2{
-  color: white;
+  color: rgb(22, 21, 22);
   position: absolute;
-  left: 30vw;
+  left: 27vw;
   width: 50vw;
   bottom: 15vh;
   font-size: 4vh;
-  
+  font-family: 'Raleway Dots', cursive;
+  text-align: center;
 }
 
 .contact-container{
@@ -83,25 +100,40 @@ a {
 }
 
 .skills-container{
-  color: white;
+  color: rgb(15, 15, 15);
   padding: 7vh 13vw;
   margin-bottom: 10vh;
+  font-family: 'Italiana', serif;
+  
 }
 
 .skills-container h2{
   margin-bottom: 5vh;
-  
   text-align: center;
+  font-family: 'Raleway Dots', cursive;
 }
+
+.skills-container h4{
+  font-family: 'Raleway Dots', cursive;
+}
+
+.skills-container h3{
+  font-family: 'Raleway Dots', cursive;
+}
+
 
 .frontend-container{
   position: relative;
   float: left;
   padding: 3% 5%;
-  background-color: rgba(255,255,255,0.2);
+  /* background-color: rgba(92, 92, 94, 0.1); */
   min-height: 60vh;
   border-radius: 5px;
   margin: 3vh 3.5vw;
+  border: solid 3px;
+  border-color: rgb(172, 153, 99);
+  font-family: 'Italiana', serif;
+  
 }
 
 .backend-container{
@@ -109,23 +141,26 @@ a {
   float: left;
   /* top: 30vh; */
   padding: 3% 5%;
-  background-color: rgba(255,255,255,0.2);
+  /* background-color: rgba(92, 92, 94, 0.1); */
   min-height: 60vh;
   border-radius: 5px;
   margin: 3vh 3.5vw;
+  border: solid 3px;
+  border-color: rgb(172, 153, 99);
+  font-family: 'Italiana', serif;
 }
 
 .testing-container{
-  /* position:absolute;
-  left: 70vw; */
   position: relative;
   float: left;
-  /* top: 30vh; */
   padding: 3% 5%;
-  background-color: rgba(255,255,255,0.2);
+  /* background-color: rgba(92, 92, 94, 0.1); */
   min-height: 60vh;
   border-radius: 5px;
   margin-top: 3vh;
-  margin-left: 3.5vw
+  margin-left: 3.2vw;
+  border: solid 3px;
+  border-color: rgb(172, 153, 99);
+  font-family: 'Italiana', serif;
 }
 
