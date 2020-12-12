@@ -7,7 +7,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Blog from './components/Blog'
 import Home from './components/Home'
-import { Route, Switch, Redirect, withRouter } from 'react-router-dom'
+import { Route, Switch, Redirect, HashRouter, Link } from 'react-router-dom'
 
 
 
@@ -21,7 +21,7 @@ function App() {
 
     <Switch>
 
-      <Route exact path="/portfolio" render={() => <Redirect to="/home" />} />
+      <Route exact path="/" render={() => <Redirect to="/home" />} />
 
       <Route exact path='/home' render={()=> {
         return <Home />
