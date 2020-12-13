@@ -3,11 +3,6 @@ import ContactFrom from './ContactForm'
 
 const Contact = () => {
 
-  // const [formValue, setFormValue] = useState('')
-
-  // const clearForm = () => {
-  //   setTimeout(() => document.getElementById("contact-form").reset(), 5000)
-  // }
 
   return (
     <div className="contact-container">
