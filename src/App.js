@@ -27,9 +27,12 @@ function App() {
         return <Home />
       }} />
 
+
+
       <Route exact path='/about' render={()=> {
         return <About />
       }} />
+
 
       <Route exact path='/projects' render={()=> {
         return <Projects/>
@@ -46,6 +49,8 @@ function App() {
       <Route exact path='/blog' render={()=> {
         return <Blog />
       }} />
+
+    <Route render={() => <Redirect to="/" />} />
 
     
 
