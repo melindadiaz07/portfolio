@@ -179,3 +179,35 @@ a {
   text-align: center;
   font-size: 1.2rem;
 }
+
+.contact-container{
+  position: absolute;
+  top: 7vh;
+  left: 30vw;
+}
+
+.contact-container h3{
+  font-family: 'Raleway Dots', cursive;
+}
+
+.contact-container a{
+  padding-left: 20px;
+}
+
+.contact-container input, textarea, button{
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: rgba(255,255,255,0.7);
+}
+
+.input-text{
+  width: 80%;
+}
+
+.submit-button{
+  padding: 7px;
+  cursor: pointer;
+}
+

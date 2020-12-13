@@ -27,7 +27,7 @@ function App() {
         return <Home />
       }} />
 
-
+    
 
       <Route exact path='/about' render={()=> {
         return <About />
