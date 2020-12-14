@@ -9,23 +9,42 @@ a.item{
 }
 
 body {
-  background: url(./images/sciencebg1.jpg) !important;
+  background: url(./images/aboutpgbg.png) !important;
   background-attachment: fixed !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
+
+
 
 .ui.secondary.pointing.menu .item {
   margin-left: 3vw !important;
   margin-right: 1vw !important;
   padding: 2.5vh 2vw !important;
   font-size: 2vh;
-  color: rgb(5, 5, 5);
+  color: rgb(54, 50, 28);
+  padding-bottom: 50px !important;
+  text-shadow: 1px 1px white;
+   
+}
+
+.ui.secondary.pointing.menu {
+  border-style: none !important;
+  padding-bottom: 50px;
+  
 }
 
 .ui.secondary.pointing.menu .item.active{
-  color:rgb(5, 5, 5)!important;
+  color:rgb(54, 50, 28)!important;
   border-color: rgb(5, 5, 5) !important;
+  background-image: url(./images/greyariacircuits.png) !important;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: top !important;
+  border-style: none !important;
+  padding-bottom: 50px !important;
+  text-shadow: 1px 1px white;
+  /* background-size: stretch !important; */
 }
 
 
@@ -70,7 +89,6 @@ a {
 }
 
 
-
 .BlogsContainer {
   padding-top: 5%;
   display: flex;
@@ -101,8 +119,9 @@ a {
 
 .skills-container{
   color: rgb(15, 15, 15);
-  padding: 7vh 13vw;
+  padding: 0vh 13vw;
   margin-bottom: 10vh;
+  margin-top: -5vh;
   font-family: 'Italiana', serif;
   
 }
