@@ -5,6 +5,7 @@ const Contact = () => {
 
 
   return (
+    <div id="contact-page">
     <div className="contact-container">
 
     <h3>email: <a href = "mailto:melindadiaz@me.com" > melindadiaz@me.com</a></h3>
@@ -20,7 +21,7 @@ const Contact = () => {
   
 
 
-      
+    </div>
     </div>
   )
 }

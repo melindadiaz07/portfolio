@@ -2,6 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
+    <div id="skills-page">
     <div className="skills-container">
       <h2>Skills & Experience</h2>
 
@@ -48,6 +49,7 @@ const Skills = () => {
     <p>Cypress</p>
     </div>
 
+    </div>
     </div>
   )
 }
