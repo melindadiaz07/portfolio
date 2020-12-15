@@ -18,13 +18,13 @@ const NavBar = ({location: { pathname }}) => {
         <Menu.Item
             as={NavLink}
             to="/home"
-            name="Home"
+            name=" Home "
             active={pathname === "/home"}
           />
         <Menu.Item
           as={NavLink}
           to="/about"
-          name="About"
+          name="About "
           active={pathname === "/about"}
         />
         <Menu.Item
@@ -36,7 +36,7 @@ const NavBar = ({location: { pathname }}) => {
          <Menu.Item
           as={NavLink}
           to="/skills"
-          name="Skills"
+          name=" Skills "
           active={pathname === "/skills"}
         />
        
@@ -51,7 +51,7 @@ const NavBar = ({location: { pathname }}) => {
           <Menu.Item
           as={NavLink}
           to="/contact"
-          name="Contact"
+          name="Contact "
           active={pathname === "/contact"}
         />
       </Menu.Menu>

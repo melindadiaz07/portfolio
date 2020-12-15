@@ -4,12 +4,12 @@ font-family: 'Raleway Dots', cursive;
 font-family: 'Scope One', serif; 
 */
 
-a.item{
+/* a.item{
   color: black;
-}
+} */
 
 body {
-  background: url(./images/homepgbg.png) no-repeat center fixed !important;
+  background: url(./images/lighterbg3.png) no-repeat center fixed !important;
   background-size: cover !important;
 }
 
@@ -17,7 +17,7 @@ body {
   height: 100vh;
   width: 100vw;
   position: fixed;
-  background: url(./images/skillspgbg3.png) !important;
+  background: url(./images/bg3.png) !important;
   position: absolute;
   bottom: 0;
   background-size: cover !important;
@@ -29,7 +29,7 @@ body {
   height: 100vh;
   width: 100vw;
   position: fixed;
-  background: url(./images/aboutpgbg.png) !important;
+  background: url(./images/bg3.png) !important;
   position: absolute;
   bottom: 0;
   background-size: cover !important;
@@ -37,17 +37,6 @@ body {
   z-index: -1;
 }
 
-#contact-page{
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  background: url(./images/contactpgbg.png) !important;
-  position: absolute;
-  bottom: 0;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  z-index: -1;
-}
 
 
 .ui.secondary.pointing.menu .item {
@@ -55,10 +44,11 @@ body {
   margin-right: 1vw !important;
   padding: 2.5vh 2vw !important;
   font-size: 2vh;
-  color: rgb(54, 50, 28);
+  color: rgb(80, 79, 72);
   padding-bottom: 50px !important;
-  text-shadow: 1px 1px white;
-   
+  text-shadow: 1px 1px white !important;
+   font-size: 2.2vh !important;
+   font-weight: bold;
 }
 
 .ui.secondary.pointing.menu {
@@ -71,12 +61,13 @@ body {
   color:rgb(54, 50, 28)!important;
   border-color: rgb(5, 5, 5) !important;
   background-image: url(./images/greyariacircuits.png) !important;
-  background-size: 100% !important;
+  background-size: 90% !important;
   background-repeat: no-repeat !important;
   background-position: top !important;
   border-style: none !important;
   padding-bottom: 50px !important;
   text-shadow: 1px 1px white;
+  font-size: 2.2vh !important;
   /* background-size: stretch !important; */
 }
 
@@ -104,7 +95,7 @@ body {
 }
 
 .contact-container{
-  margin: 10vh 10vw;
+  margin: 10vh 8vw;
 }
 
 
@@ -115,16 +106,13 @@ body {
   padding: 10vh 10vw;
 }
 
-a {
-  text-decoration: none;
-}
 
 
 .skills-container{
   color: rgb(15, 15, 15);
   padding: 0vh 13vw;
   margin-bottom: 10vh;
-  margin-top: 10vh;
+  padding-top: 13vh;
   font-family: 'Italiana', serif;
   
 }
@@ -217,6 +205,13 @@ a {
 
 .contact-container a{
   padding-left: 20px;
+  color: rgb(168, 163, 153);
+  /* text-decoration: underline; */
+}
+
+.contact-container a:hover{
+  color: rgb(160, 143, 49);
+  text-decoration: underline;
 }
 
 .contact-container input, textarea, button{
