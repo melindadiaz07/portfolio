@@ -9,12 +9,23 @@ a.item{
 }
 
 body {
-  background: url(./images/aboutpgbg.png) !important;
+  background: url(./images/homepgbg.png) !important;
   background-attachment: fixed !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
 
+#about-page{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: url(./images/aboutpgbg.png) !important;
+  position: absolute;
+  bottom: 0;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  z-index: -1;
+}
 
 
 .ui.secondary.pointing.menu .item {
