@@ -12,44 +12,47 @@ const [selectedProject, setSelectedProject] = useState(<BrakebillsProject />)
 
 
 
-// const updateProject = () => {
-//   // sets component to display based on state - case statements and returns component
-//   switch(selectedProject) {
-//     case "brakebills":
-//       console.log("brakebills")
-//       return <BrakebillsProject />
-//     case "movieMatcher":
-//       return <MovieMatcherProject />
-//     case "WoM":
-//       return <WoMProject />
-//     case "learnTracker":
-//       return <LearnTrackerProject />
-//     default:
-//       return null
-//   }
-// }
+const handleClick = (event) => {
+  
+  document.querySelector(".selected-tab").classList.remove("selected-tab")
+  event.currentTarget.classList.add("selected-tab")
+}
+
+
 
   return (
     <div>
       <div className="side-tabs">
        
 
-        <div className="tab selected-tab" onClick={() => setSelectedProject(<BrakebillsProject />)}>
+        <div className="tab selected-tab" onClick={(event) => {
+          setSelectedProject(<BrakebillsProject />)
+          handleClick(event)
+        }} >
           <h3>Brakebills University</h3>
           <p>description</p>
         </div>
 
-        <div className="tab" onClick={() => setSelectedProject(<LearnTrackerProject />)}>
+        <div className="tab" onClick={(event) => {
+          setSelectedProject(<LearnTrackerProject />)
+          handleClick(event)
+        }}>
          <h3> Learning Tracker </h3>
          <p>description</p>
         </div>
 
-        <div className="tab" onClick={() => setSelectedProject(<WoMProject />)}>
+        <div className="tab" onClick={(event) => {
+          setSelectedProject(<WoMProject />)
+          handleClick(event)
+        }}>
          <h3> World of Magic </h3>
          <p>description</p>
         </div>
 
-        <div className="tab" onClick={() => setSelectedProject(<MovieMatcherProject />)}>
+        <div className="tab" onClick={(event) => {
+          setSelectedProject(<MovieMatcherProject />)
+          handleClick(event)
+        }}>
           <h3>Movie Matcher </h3>
           <p>description</p>
         </div>

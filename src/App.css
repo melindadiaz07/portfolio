@@ -264,7 +264,7 @@ body {
   width: 17vw;
   height: 100vh;
   position: fixed;
-  margin-top: -5vh;
+  margin-top: -7vh;
 }
 
 .tab{
@@ -280,9 +280,9 @@ body {
 }
 
 .selected-tab{
-  background-image: url(./images/goldsidetabcircuits2.png);
+  background-image: url(./images/goldsidetabcircuits3.png);
   opacity: 1;
-  background-size: 30%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: left;
 }
