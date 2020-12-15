@@ -217,7 +217,7 @@ body {
 
 .contact-container a{
   padding-left: 20px;
-  color: rgb(168, 163, 153);
+  color: rgb(146, 142, 134);
   /* text-decoration: underline; */
 }
 
@@ -231,7 +231,7 @@ body {
   padding: 5px;
   border-radius: 3px;
   border-style: none;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(107, 106, 106, 0.1);
 }
 
 .input-text{
@@ -243,3 +243,9 @@ body {
   cursor: pointer;
 }
 
+
+.contact-icons{
+  margin-right: 10px;
+  height: 13px;
+  margin-left: -2vw;
+}
