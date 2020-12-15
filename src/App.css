@@ -121,14 +121,26 @@ body {
   margin-bottom: 5vh;
   text-align: center;
   font-family: 'Raleway Dots', cursive;
+  text-shadow: 1px 0px rgb(160, 159, 159);
+  letter-spacing: 3px;
+  padding-left: 3vw;
 }
 
 .skills-container h4{
   font-family: 'Raleway Dots', cursive;
+  color: rgb(131, 126, 118);
 }
 
 .skills-container h3{
   font-family: 'Raleway Dots', cursive;
+  text-shadow: 1px 0px rgb(160, 159, 159);
+ 
+}
+
+.skills-container p {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(53, 43, 1);
 }
 
 
