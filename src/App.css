@@ -13,6 +13,7 @@ body {
   background-size: cover !important;
 }
 
+
 #about-page{
   height: 100vh;
   width: 100vw;
@@ -71,9 +72,9 @@ body {
   color:rgb(54, 50, 28)!important;
   border-color: rgb(5, 5, 5) !important;
   background-image: url(./images/greyariacircuits.png) !important;
-  background-size: 90% !important;
+  background-size: 95% !important;
   background-repeat: no-repeat !important;
-  background-position: top !important;
+  background-position: center -.5vh !important;
   border-style: none !important;
   padding-bottom: 50px !important;
   text-shadow: 1px 1px white;
@@ -303,27 +304,46 @@ body {
   color: black;
 }
 
-/* .tab h3{
-  padding-top: 2vh;
-} */
-
 .selected-tab{
-  background: url(./images/goldsidetabcircuits3.png),url(./images/pointbanner1.png);
+  background: url(./images/sidetabcircuits2.png),url(./images/pointbanner1.png);
   opacity: 1;
   /* background-size: 95%; */
-  background-size: 70% 150%, 100% 90%;
+  background-size: 95% 180%, 100% 90%;
   background-repeat: no-repeat, no-repeat;
   background-position: center left, center left;
   border-right: hidden;
   color: rgb(43, 42, 42);
+  
 }
 
 .display-project-container{
   position: absolute;
-  top: 20vh;
+  top: 17vh;
   left: 25vw;
-  height: flex;
+  min-height: 70vh;
   width: 70vw;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
 }
+
+.brakebills-container{
+  margin-bottom: 13vh;
+}
+
+.brakebills-container video{
+  padding-bottom: 5vh;
+}
+
+.brakebills-description{
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+  font-size: 1.2rem;
+  width: 60vw;
+  padding-left: 5vw;
+  font-family: 'Raleway Dots', cursive;
+  color: black;
+  text-align: center;
+  
+
+}
+

@@ -36,7 +36,7 @@ const NavBar = ({location: { pathname }}) => {
          <Menu.Item
           as={NavLink}
           to="/skills"
-          name=" Skills "
+          name=" Skills  "
           active={pathname === "/skills"}
         />
        
