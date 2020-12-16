@@ -82,6 +82,7 @@ body {
 }
 
 
+
 .headshot{
   height: 60vh;
   border-radius: 50%;
@@ -92,6 +93,7 @@ body {
   padding: 5vh 5vw;
   filter: grayscale(.2)
 }
+
 
 .home-page-container h2{
   color: rgb(22, 21, 22);
@@ -139,12 +141,15 @@ body {
 .skills-container h4{
   font-family: 'Raleway Dots', cursive;
   color: rgb(131, 126, 118);
+  font-size: 1.2rem;
+  
 }
 
 .skills-container h3{
   font-family: 'Raleway Dots', cursive;
   text-shadow: 1px 0px rgb(160, 159, 159);
- 
+ text-align:center;
+ margin-left: -2vw;
 }
 
 .skills-container p {
@@ -158,6 +163,7 @@ body {
   position: relative;
   float: left;
   padding: 3% 5%;
+  padding-right: 2vw;
   /* background-color: rgba(92, 92, 94, 0.1); */
   min-height: 60vh;
   border-radius: 5px;
@@ -180,6 +186,8 @@ body {
   border: solid 3px;
   border-color: rgb(172, 153, 99);
   font-family: 'Italiana', serif;
+  padding-right: 2vw;
+
 }
 
 .testing-container{
@@ -194,6 +202,8 @@ body {
   border: solid 3px;
   border-color: rgb(172, 153, 99);
   font-family: 'Italiana', serif;
+  padding-right: 2vw;
+
 }
 
 .about-container{
@@ -238,10 +248,10 @@ body {
 
 .contact-container input, textarea, button{
   margin-top: 5px;
-  padding: 5px;
+  padding: 7px;
   border-radius: 3px;
   border-style: none;
-  background-color: rgba(107, 106, 106, 0.1);
+  background-color: rgba(78, 77, 77, 0.1);
 }
 
 .input-text{
@@ -261,7 +271,7 @@ body {
 }
 
 .side-tabs{
-  width: 17vw;
+  width: 19vw;
   height: 100vh;
   position: fixed;
   margin-top: -7vh;
@@ -279,7 +289,7 @@ body {
   background: url(./images/pointbanner1.png);
   background-position: center left;
   background-repeat: no-repeat;
-  background-size: 100% 90%;
+  background-size: 100% 85%;
 }
 
 .tab h3{

@@ -7,7 +7,7 @@ const Skills = () => {
       <h2>Skills & Experience</h2>
 
     <div className="frontend-container">
-      <h3>Front End</h3>
+      <h3> &#60;&nbsp;  Front End  &nbsp;&#62;</h3>
 
       <h4>Languages: </h4>
       <p>JavaScript</p>
@@ -24,7 +24,7 @@ const Skills = () => {
   </div>
 
 <div className="backend-container">
-    <h3>Backend</h3>
+    <h3> &#60;&nbsp; Backend &nbsp;&#62;</h3>
 
     <h4>Languages:</h4>
     <p>Ruby</p>
@@ -38,7 +38,7 @@ const Skills = () => {
   </div>
     
     <div className="testing-container">
-    <h3>Testing</h3>
+    <h3> &#60; &nbsp; Testing &nbsp;&#62;</h3>
 
     <h4>Languages:</h4>
     <p>Mocha</p>
