@@ -5,7 +5,12 @@ const BrakebillsProject = () => {
   return (
 
     <div>
-      Brakebills Project
+      <h2>Brakebills University</h2>
+      <h4>description</h4>
+      <h4>*gifs of differing content side-by side</h4>
+      <p>home page</p>
+      <p>about page</p>
+      <p>etc.</p>
     </div>
 
   )
