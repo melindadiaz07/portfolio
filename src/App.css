@@ -330,8 +330,10 @@ body {
   margin-bottom: 13vh;
 }
 
-.brakebills-container video{
-  padding-bottom: 5vh;
+.brakebills-container iframe{
+  margin-bottom: 5vh;
+  background-size: fill;
+  
 }
 
 .brakebills-description{
