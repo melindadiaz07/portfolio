@@ -30,7 +30,7 @@ const handleClick = (event) => {
           handleClick(event)
         }} >
           <h3>Brakebills University</h3>
-          <p>description</p>
+          <p>An academic website with secret content</p>
         </div>
 
         <div className="tab" onClick={(event) => {
@@ -38,7 +38,7 @@ const handleClick = (event) => {
           handleClick(event)
         }}>
          <h3> Learning Tracker </h3>
-         <p>description</p>
+         <p>Build or find custom curriculum</p>
         </div>
 
         <div className="tab" onClick={(event) => {
@@ -46,7 +46,7 @@ const handleClick = (event) => {
           handleClick(event)
         }}>
          <h3> World of Magic </h3>
-         <p>description</p>
+         <p>Cast spells to catch magical creatures</p>
         </div>
 
         <div className="tab" onClick={(event) => {
@@ -54,7 +54,7 @@ const handleClick = (event) => {
           handleClick(event)
         }}>
           <h3>Movie Matcher </h3>
-          <p>description</p>
+          <p>Meet your matches based on your favorite films</p>
         </div>
 
       </div>

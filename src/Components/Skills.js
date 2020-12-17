@@ -3,10 +3,11 @@ import React from 'react';
 const Skills = () => {
   return (
     <div id="skills-page">
-    <div className="skills-container">
       <h2>Skills & Experience</h2>
+    <div className="skills-container">
+      
 
-    <div className="frontend-container">
+    <div className="frontend-container grid-item">
       <h3> &#60;&nbsp;  Front End  &nbsp;&#62;</h3>
 
       <h4>Languages: </h4>
@@ -23,7 +24,7 @@ const Skills = () => {
       <p>Material UI</p>
   </div>
 
-<div className="backend-container">
+<div className="backend-container grid-item">
     <h3> &#60;&nbsp; Backend &nbsp;&#62;</h3>
 
     <h4>Languages:</h4>
@@ -37,7 +38,7 @@ const Skills = () => {
 
   </div>
     
-    <div className="testing-container">
+    <div className="testing-container grid-item">
     <h3> &#60; &nbsp; Testing &nbsp;&#62;</h3>
 
     <h4>Languages:</h4>

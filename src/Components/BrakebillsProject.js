@@ -9,8 +9,6 @@ const BrakebillsProject = () => {
   return (
 
     <div className="brakebills-container">
-      {/* <iframe width="970" height="510" src="https://www.youtube.com/embed/67evagTgJ_c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-      {/* <video controls src={demo} type="video/mp4" width="100%" /> */}
 
       <ReactPlayer
         url="https://youtu.be/67evagTgJ_c?modestbranding=0" controls

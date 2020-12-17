@@ -105,20 +105,23 @@ hr{
 
 .skills-container{
   color: rgb(15, 15, 15);
-  padding: 0vh 13vw;
+  padding: 0vh 14.5vw;
   margin-bottom: 10vh;
-  margin-top: -5vh;
+  margin-top: 7vh;
   font-family: 'Italiana', serif;
-  
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-gap: 7vw;
 }
 
-.skills-container h2{
+#skills-page h2{
   margin-bottom: 5vh;
   text-align: center;
   font-family: 'Raleway Dots', cursive;
   text-shadow: 1px 0px rgb(160, 159, 159);
   letter-spacing: 3px;
   padding-left: 3vw;
+  margin-top: -5vh;
 }
 
 .skills-container h4{
@@ -142,47 +145,18 @@ text-shadow: 1px 0px rgb(160, 159, 159);
 }
 
 
-.frontend-container{
-  position: relative;
-  float: left;
-  padding: 3% 5%;
+.grid-item{
+  grid-row: 1;
+  padding: 7% 11%;
   padding-right: 2vw;
   min-height: 60vh;
   border-radius: 5px;
-  margin: 3vh 3.5vw;
   border: solid 2px;
   border-image: url(./images/bestgoldleaf.jpg) 4 4;
   font-family: 'Italiana', serif;
-}
-
-.backend-container{
-  position: relative;
-  float: left;
-  padding: 3% 5%;
-  min-height: 60vh;
-  border-radius: 5px;
-  margin: 3vh 3.5vw;
-  border: solid 2px;
-  border-image: url(./images/bestgoldleaf.jpg) 4 4;
   font-family: 'Italiana', serif;
-  padding-right: 2vw;
-
 }
 
-.testing-container{
-  position: relative;
-  float: left;
-  padding: 3% 5%;
-  min-height: 60vh;
-  border-radius: 5px;
-  margin-top: 3vh;
-  margin-left: 3.2vw;
-  border: solid 2px;
-  border-image: url(./images/bestgoldleaf.jpg) 4 4;
-  font-family: 'Italiana', serif;
-  padding-right: 2vw;
-
-}
 
 .about-container{
   width: 72vw;
@@ -260,6 +234,12 @@ text-shadow: 1px 0px rgb(160, 159, 159);
   margin-top: -7vh;
 }
 
+.side-tabs p{
+  margin-top: -13px;
+  font-style: italic;
+  width: 80%;
+}
+
 .tab{
   margin: 6vh 0vw;
   padding: 2vh 3vw;
@@ -330,3 +310,18 @@ text-shadow: 1px 0px rgb(160, 159, 159);
   text-align: center;
 }
 
+.movie-match-gif{
+  width: 65vw;
+  
+}
+
+.movie-match-description{
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+  font-size: 1.2rem;
+  width: 60vw;
+  padding-left: 5vw;
+  font-family: 'Raleway Dots', cursive;
+  color: black;
+  text-align: center;
+}
