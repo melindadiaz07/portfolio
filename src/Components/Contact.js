@@ -12,6 +12,7 @@ const Contact = () => {
 
   return (
     <div id="contact-page">
+       
     <div className="contact-container">
 
     <h3><img src={email} alt="email logo" className="contact-icons" />email: <a href = "mailto:melindadiaz@me.com" > melindadiaz@me.com</a></h3>
@@ -20,7 +21,7 @@ const Contact = () => {
     <h3><img src={medium} alt="medium logo" className="contact-icons" />blog: <a href="https://melindadiaz-75942.medium.com/" > melindadiaz-75942.medium.com/</a></h3>
     <br /> <br />
 
-    {/* <hr /> */}
+    <hr />
 
     <h3>Or send me a message right here ▾ </h3>
     <ContactFrom />

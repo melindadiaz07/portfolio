@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import background from '../images/aboutpgbg.png'
 
 const About = () => {
 
