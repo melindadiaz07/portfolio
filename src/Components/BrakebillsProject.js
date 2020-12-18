@@ -1,5 +1,4 @@
-import React, { useRef } from 'react';
-// import demo from '../images/brakebillsdemo2.mp4'
+import React from 'react';
 import ReactPlayer from "react-player"
 
 const BrakebillsProject = () => {
@@ -11,7 +10,7 @@ const BrakebillsProject = () => {
     <div className="brakebills-container">
 
       <ReactPlayer
-        url="https://youtu.be/67evagTgJ_c?modestbranding=0" controls
+        url="https://youtu.be/67evagTgJ_c" controls
         height="500px" width="970px" modestbranding="0"
       />
 
