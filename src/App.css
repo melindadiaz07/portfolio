@@ -59,7 +59,6 @@ hr{
   padding-bottom: 50px !important;
   text-shadow: 0px 0px white !important;
   font-size: 2.2vh !important;
-  /* background-size: stretch !important; */
 }
 
 
@@ -82,12 +81,7 @@ hr{
   font-size: 4vh;
   font-family: 'Raleway Dots', cursive;
   text-align: center;
-  /* color: white;
-  background: url(./images/bestgoldleaf.jpg) ;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  /* text-shadow: 1px 1px rgba(219, 219, 171, 0.397); */
+
 }
 
 .contact-container{
@@ -98,7 +92,6 @@ hr{
  left: -11vw;
  margin-top: -2vh;
 }
-
 
 .blog-feed-container{
   width: 70vw;
@@ -189,7 +182,6 @@ text-shadow: 1px 0px rgb(160, 159, 159);
   padding: 3%;
   top: 0vh;
   left: 30vw;
-  /* background-color: rgba(71, 70, 70, 0.1); */
 }
 
 .contact-container h3{
@@ -200,13 +192,11 @@ text-shadow: 1px 0px rgb(160, 159, 159);
 .contact-container a{
   padding-left: 20px;
   color: rgb(146, 142, 134);
-  /* text-decoration: underline; */
 }
 
 .contact-container a:hover{
   color: rgb(207, 170, 66);
   text-decoration: underline;
-  
 }
 
 .contact-container input, textarea, button{
@@ -301,7 +291,6 @@ text-shadow: 1px 0px rgb(160, 159, 159);
   left: 25vw;
   min-height: 70vh;
   width: 70vw;
-  /* border: 1px solid black; */
   padding: 10px;
 }
 
@@ -315,7 +304,23 @@ text-shadow: 1px 0px rgb(160, 159, 159);
   
 }
 
+
 .brakebills-description{
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+  font-size: 1.2rem;
+  width: 60vw;
+  padding-left: 5vw;
+  font-family: 'Raleway Dots', cursive;
+  color: black;
+  text-align: center;
+}
+
+.learn-tracker-container{
+  margin-bottom: 13vh;
+}
+
+.learn-tracker-description{
   margin-top: 7vh;
   margin-bottom: 5vh;
   font-size: 1.2rem;
@@ -328,7 +333,6 @@ text-shadow: 1px 0px rgb(160, 159, 159);
 
 .movie-match-gif{
   width: 65vw;
-  
 }
 
 .movie-match-description{
