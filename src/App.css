@@ -335,7 +335,22 @@ text-shadow: 1px 0px rgb(160, 159, 159);
   width: 65vw;
 }
 
+.wom-gif{
+  width: 65vw;
+}
+
 .movie-match-description{
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+  font-size: 1.2rem;
+  width: 60vw;
+  padding-left: 5vw;
+  font-family: 'Raleway Dots', cursive;
+  color: black;
+  text-align: center;
+}
+
+.wom-description{
   margin-top: 7vh;
   margin-bottom: 5vh;
   font-size: 1.2rem;
