@@ -25,7 +25,7 @@ const Skills = () => {
   </div>
 
 <div className="backend-container grid-item">
-    <h3> &#60;&nbsp; Backend &nbsp;&#62;</h3>
+    <h3> &#60;&nbsp; Back End &nbsp;&#62;</h3>
 
     <h4>Languages:</h4>
     <p>Ruby</p>

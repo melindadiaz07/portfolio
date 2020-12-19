@@ -17,8 +17,8 @@ const Contact = () => {
 
     <h3><img src={email} alt="email logo" className="contact-icons" />email: <a href = "mailto:melindadiaz@me.com" > melindadiaz@me.com</a></h3>
     <h3><img src={linkedin} alt="linkedin logo" className="contact-icons" />linkedIn: <a target="_blank" href="https://www.linkedin.com/in/melindadiaz/"> linkedin.com/in/melindadiaz/</a></h3>
-    <h3><img src={github} alt="github logo" className="contact-icons" />gitHub: <a href="https://github.com/melindadiaz07" > github.com/melindadiaz07</a></h3>
-    <h3><img src={medium} alt="medium logo" className="contact-icons" />blog: <a href="https://melindadiaz-75942.medium.com/" > melindadiaz-75942.medium.com/</a></h3>
+    <h3><img src={github} alt="github logo" className="contact-icons" />gitHub: <a target="_blank" href="https://github.com/melindadiaz07" > github.com/melindadiaz07</a></h3>
+    <h3><img src={medium} alt="medium logo" className="contact-icons" />blog: <a target="_blank" href="https://melindadiaz-75942.medium.com/" > melindadiaz-75942.medium.com/</a></h3>
     <br /> <br />
 
     <hr />
