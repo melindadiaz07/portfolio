@@ -108,8 +108,9 @@ hr{
   margin-top: 7vh;
   font-family: 'Italiana', serif;
   display: grid;
-  grid-template-columns: 20vw 20vw 20vw;
-  grid-gap: 7vw;
+  grid-template-columns: 22vw 22vw ;
+  grid-gap: 11vw;
+  justify-content: center;
 }
 
 #skills-page h2{
@@ -118,7 +119,7 @@ hr{
   font-family: 'Raleway Dots', cursive;
   text-shadow: 1px 0px rgb(160, 159, 159);
   letter-spacing: 3px;
-  padding-left: 3vw;
+  /* padding-left: 3vw; */
   margin-top: -5vh;
 }
 

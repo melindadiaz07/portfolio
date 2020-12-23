@@ -34,21 +34,23 @@ const Skills = () => {
 
     <h4>Frameworks/Databases:</h4>
     <p>Rails</p>
+    <p>Node.js</p>
+    <p>Express.js</p>
     <p>PostgreSQL</p>
 
   </div>
     
-    <div className="testing-container grid-item">
+    {/* <div className="testing-container grid-item">
     <h3> &#60; &nbsp; Testing &nbsp;&#62;</h3>
 
     <h4>Languages:</h4>
     <p>Mocha</p>
-    {/* <p>RSpec</p> */}
+    
 
     <h4>Frameworks/Libraries:</h4>
     <p>Chai</p>
     <p>Cypress</p>
-    </div>
+    </div> */}
 
     </div>
     </div>
