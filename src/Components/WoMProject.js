@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from "react-player"
-import placeholder from '../images/womdemo2.gif'
+// import placeholder from '../images/womdemo2.gif'
 
 const WoMProject = () => {
 
@@ -8,15 +8,15 @@ const WoMProject = () => {
 
     <div className="wom-container">
       
-      {/* <ReactPlayer
-        url=" youtube url " controls
+      <ReactPlayer
+        url="https://youtu.be/_gVwOLFwaic" controls
         height="500px" width="970px" modestbranding="0"
-      /> */}
+      />
 
-      <img className="wom-gif" src={placeholder} alt="wom-demo" />
+      {/* <img className="wom-gif" src={placeholder} alt="wom-demo" /> */}
 
-      <h3 className="wom-description">Using Javascript to build this app allowed me to create a really interactive interface.
-        Users can select their character, or get 'sorted' into a house (chosen through a function that selects a random house id from the database).
+      <h3 className="wom-description">Using Javascript to build this app allowed me to create a very interactive user minterface.
+        Players can select an existing character, or get 'sorted' into a house (chosen through a function that selects a random house id from the database).
         Once the game starts, magical creatures are randomly selected from the API, and rendered in random 'locations'(backgrounds) to create numerous scenarios.
       </h3>
 

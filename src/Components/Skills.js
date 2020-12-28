@@ -40,17 +40,18 @@ const Skills = () => {
 
   </div>
     
-    {/* <div className="testing-container grid-item">
-    <h3> &#60; &nbsp; Testing &nbsp;&#62;</h3>
+    {/* <div className="testing-container grid-item"> */}
+    {/* <h3> &#60; &nbsp; Dev Tools &nbsp;&#62;</h3> */}
 
-    <h4>Languages:</h4>
-    <p>Mocha</p>
+    {/* <h4>Languages:</h4> */}
+    {/* <p>Git/GitHub</p> */}
+    {/* <p>Postman</p> */}
     
 
-    <h4>Frameworks/Libraries:</h4>
+    {/* <h4>Frameworks/Libraries:</h4>
     <p>Chai</p>
-    <p>Cypress</p>
-    </div> */}
+    <p>Cypress</p> */}
+    {/* </div> */}
 
     </div>
     </div>
