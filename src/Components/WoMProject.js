@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from "react-player"
-// import placeholder from '../images/womdemo2.gif'
+
 
 const WoMProject = () => {
 
