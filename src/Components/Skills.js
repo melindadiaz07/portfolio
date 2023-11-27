@@ -16,12 +16,12 @@ const Skills = () => {
       <p>CSS</p>
 
       <h4>Frameworks/Libraries:</h4>
-      <p>React</p>
-      {/* <p>Redux</p> */}
-      {/* <p>jQuery</p> */}
+      <p>React.js</p>
+      <p>React Native</p>
+      <p>Redux</p>
+      <p>jQuery</p>
       <p>Bootstrap</p>
-      <p>Semantic UI</p>
-      <p>Material UI</p>
+      <p>Vue.js</p>
   </div>
 
 <div className="backend-container grid-item">
